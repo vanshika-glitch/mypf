@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  /*background-image: linear-gradient(135deg, rgb(0, 0, 0), rgb(248, 217, 149));*/
+  background-image: linear-gradient(180deg,black,black);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro {
+  color: rgb(255, 255, 255);
+  margin-top: 4rem;
+  padding-top: 2rem;
+  text-align: left;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+
+.leftsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 390px) {
+  .leftsection {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    max-width: 50px;
+    margin: 20px;
+  }
+  .secondsection {
+    margin: 0;
+  }
+
+  .leftsection .img {
+    max-width: 280px;
+    max-height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+
+    /*margin-left: 15rem;*/
+    box-shadow: none;
+  }
+  .rs i {
+    font-size: 2rem;
+  }
+
+  /*.rs {
+    margin-left: auto;
+    margin-right: 0.5rem;
+    margin-top: 2rem;
+}*/
+}
+.intro span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.firstsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.rs {
+  font-size: 2.5rem;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.leftsection img {
+  max-height: 600px;
+  max-width: 780px;
+  margin: 2rem;
+  /* margin-left: 11rem; /*this could be done in a good way just go through it*/
+  margin-top: 8rem;
+  border-radius: 10%;
+  border: 2px solid orange;
+}
+.parttwo {
+  background-image: url(heroimg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  /*bg opacity lgani h*/
+  color: #fff;
+  padding-top: 4rem;
+  height: 50rem;
+  /*padding ek bar dekh lena kuch ho skta h maybe isse better*/
+}
+.secondsection {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  margin: 2rem;
+}
+
+.sectionheader {
+  /*mrgin top ayega*/
+  text-align: center;
+}
+.majortext {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+.box1,
+.box2,
+.box3 {
+  margin-top: 2rem;
+}
+.skillset span {
+  margin-top: 4rem;
+}
+.minortext {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.skillset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.skillset img {
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem;
+}
+.skillpara {
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+.skillhead span {
+  margin-top: 2rem;
+  text-align: center;
+}
+.skillstuff {
+  text-align: center;
+  margin-top: 1rem;
+}
+.skillhead {
+  text-align: center;
+}
+.aboutpara {
+  color: #fff;
+  margin-top: 0;
+  padding-top: 0;
+}
+.resume {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.resume button {
+  font-size: 1.1rem;
+  padding: 0.7rem;
+  border-radius: 5rem;
+  margin: 1rem;
+  background-image: linear-gradient(90deg, yellow, rgb(235, 83, 23));
+  font-weight: 600;
+  color: black;
+}
+.resume button:hover {
+  scale: 1.2;
+  transition: linear 0.5s;
+  cursor: pointer;
+}
+#element {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: gold;
+}
+.partthree {
+  height: 105rem;
+  max-height: 190rem;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 390px) {
+  .partthree {
+    height: 190rem;
+    max-height: 190rem;
+  }
+}
+.card {
+  margin-top: 2rem;
+  box-shadow: 10px 10px 10px 10px;
+  max-width: 22rem;
+  width: 18rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-text {
+  height: 6rem;
+}
+.card img {
+  height: 12rem;
+}
+.card:hover {
+  scale: 1.1;
+  transition: ease-in-out 1s;
+}
+.card button {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 5rem;
+  padding: 0.2rem;
+  background-image: linear-gradient(180deg, gold, red);
+  color: black;
+  border-radius: 0.4rem;
+}
+.card button:hover {
+  scale: 1.1;
+  background: rgb(146, 146, 245);
+  transition: ease-in-out 1s;
+}
+.partfour {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.mainform {
+  width: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 26rem;
+  align-items: center;
+  border: 2px solid wheat;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+.mainform h3{
+  color: #ffffff;
+}
+.mainform input {
+  width: 35rem;
+  margin: 0.7rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+}
+#message {
+  height: 5rem;
+}
+#submit {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(180deg, orange, gold);
+}
+#submit:hover {
+  scale: 1.2;
+  transition: linear 1s;
+}
+@media screen and (max-width: 390px) {
+  .mainform {
+    width: 18rem;
+    height: 26rem;
+    align-items: center;
+    border: 2px solid wheat;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+  .mainform input {
+    margin: 0.7rem;
+    width: 15rem;
+    padding-left: 0.2rem;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+  }
+  #message {
+    height: 5rem;
+  }
+  #submit {
+    padding: 0.2rem;
+    margin: 0.5rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(180deg, orange, gold);
+  }
+  #submit:hover {
+    scale: 1.2;
+    transition: linear 1s;
+  }
+}
+.footer {
+  height: 15rem;
+  background-color: #fff;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+#foot i {
+  border: 2px solid black;
+  font-weight: 800;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+#foot i:hover {
+  background-color: rgb(194, 192, 192);
+}
+.footer span {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(201, 124, 30);
+}
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+}
+.container-fluid ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#np,
+#nc,
+#na,
+#nh {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+.container-fluid ul li {
+  text-decoration: none;
+  display: flex;
+  margin-left: rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+.container-fluid a {
+  text-decoration: none;
+  color: #fff;
+}
+.container-fluid a:hover {
+  color: gold;
+}
+.navbtn {
+  padding: 0.3rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0.5rem;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, gold, orange);
+}
+.navbtn:hover {
+  scale: 1.1;
+  transition: linear 0.5s;
+  background: rgb(229, 227, 247);
+}
+.navbar-brand i {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.container-fluid ul li:hover {
+  scale: 1.1;
+  transition: linear 0.5s;
+  color: gold;
+  cursor: pointer;
+}
+@media screen and (max-width: 390px) {
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+    padding: 0;
+  }
+  .container-fluid ul li {
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: flex;
+    margin-left: 0.01rem;
+    margin-right: 0.5rem; /*badha skte hai shayad*/
+    margin-top: 0.9rem;
+    padding: 0;
+    text-decoration: none;
+  }
+  .container-fluid a {
+    text-decoration: none;
+  }
+  #nh,
+  #nc,
+  #na,
+  #np {
+    margin-top: 1.2rem;
+    margin-left: 0.01rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+  }
+  #nh {
+    margin-left: 0.5rem;
+  }
+  .nli {
+    margin-right: 4rem;
+    width: 15.5rem;
+    text-decoration: none;
+  }
+  .container-fluid ul li #nh {
+    margin-left: 0;
+  }
+  .container-fluid ul li button {
+    margin-left: 0.5rem;
+  }
+  #btnnx {
+    margin-left: 8.5rem;
+    margin-bottom: 10rem;
+  }
+  .navbtn {
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, gold, orange);
+  }
+
+  .navbtn:hover {
+    scale: 1.1;
+    transition: linear 0.5s;
+    background: rgb(229, 227, 247);
+  }
+  .navbar-brand i {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 0.001rem;
+    margin-right: 0.2rem;
+    padding: 0.2rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  .container-fluid ul li:hover {
+    scale: 1.1;
+    transition: linear 0.5s;
+    color: gold;
+    cursor: pointer;
+  }
+  .container-fluid ul li button {
+    margin: 0;
+    padding: 0.5rem;
+  }
+}
+.navbuttons button {
+}
